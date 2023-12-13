@@ -1,0 +1,16 @@
+name: test-sf
+version: 0.1.0
+
+authors:
+  - tanukimaru0090 <TANUSAN1015@gmail.com>
+
+targets:
+  test-sf:
+    main: src/test-sf.cr
+dependencies:
+  crsfml:
+    github: oprypin/crsfml 
+    version: ~> 2.5.2
+crystal: '>= 1.10.1'
+
+license: MIT
